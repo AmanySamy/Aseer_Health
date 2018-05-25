@@ -1,0 +1,67 @@
+/* Global */
+@font-face {
+    // font-family: sukar;
+    // src: url(../fonts/Sukar-Regular.ttf);
+    font-family: cairo;
+    src: url(../fonts/Cairo-Regular.ttf);
+}
+body{
+    font-family: cairo;
+}
+/*=============Start Our Framework ==============*/
+.home{
+    .row{
+        margin: 0px;
+        .logo{
+            background: url(../img/logo.png) no-repeat center;
+            height: 100vh;
+            background-size: cover;
+        }
+        .main{
+            background: rgba(76, 197, 214, .5);
+            padding: 60px;
+            text-align: center;
+            height: 100vh;
+            overflow-y: scroll;
+            .counter_down{
+                .count{
+                    display: inline-block;
+                    font-size: 50px;
+                    color: #1c1c1c;
+                    font-weight: 800;
+                    margin: 20px;
+                    span{
+                        font-size: 26px;
+                        display: block;
+                        font-weight: 700;
+                        color: #a7a7a7;
+                        color: #00A3B6;
+
+                    }
+                }
+            }
+            h1{
+                font-size: 46px;
+                margin: 30px 0px;
+                 
+            }
+            p{
+                line-height: 2;
+                width: 80%;
+                margin: 30px auto;
+                font-size: 18px;
+            
+            }
+            .wait{
+                padding: 10px 50px;
+                border-radius: 30px;
+                background: #b4d163;
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+
+
+/*=============End Our Framework ==============*/
